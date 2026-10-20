@@ -1,14 +1,20 @@
 # Fake News Detection using Machine Learning
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Problem Definition](#problem-definition)
-- [Project Structure](#project-structure)
-- [Datasets](#datasets)
-- [Model Name](#model-name)
-- [Images](#images)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
+- [Fake News Detection using Machine Learning](#fake-news-detection-using-machine-learning)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Problem Definition](#problem-definition)
+  - [Project Structure](#project-structure)
+  - [Datasets](#datasets)
+    - [train.csv](#traincsv)
+    - [test.csv](#testcsv)
+  - [Model Name](#model-name)
+    - [Model Description](#model-description)
+    - [Model Accuracy](#model-accuracy)
+  - [Images](#images)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
 
 ## Introduction
 This repository contains a comprehensive project for detecting fake news using machine learning techniques and various natural language processing techniques. The project includes data analysis, model training, and a web application for real-time fake news detection. The machine learning model is designed to classify news articles as either real or fake based on their content.
@@ -76,7 +82,7 @@ Before you begin, ensure you have met the following requirements:
 To get started with this project, follow these steps:
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/abiek12/Fake-News-Detection-using-MachineLearning.git
+   git clone https://github.com/ShahidShaikh308/Fake-News-Detection-using-MachineLearning
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -103,12 +109,5 @@ To get started with this project, follow these steps:
    ```
 
 Access the application in your web browser by navigating to `http://localhost:5000`.
-
----
-
-**Author**
-- ABHISHEK P P (https://github.com/abiek12)
-
-- If you have any questions or need further assistance, feel free to contact us at abhishekkanichery@gmail.com
 
 ---

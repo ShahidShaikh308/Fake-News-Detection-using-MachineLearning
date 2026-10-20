@@ -49,9 +49,9 @@ def predict():
 
         def predi(pred):
             if pred[0] == 1:
-                res = "Prediction of the News :  Looking Fake News📰"
+                res = "Prediction of the News : Fake News📰"
             else:
-                res = "Prediction of the News : Looking Real News📰 "
+                res = "Prediction of the News : Real News📰 "
             return res
 
         result = predi(pred)
